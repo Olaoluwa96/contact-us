@@ -1,0 +1,131 @@
+body {
+    margin: auto 0;
+    background-color: #413D2E;
+    color:black;
+    
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+header {
+    height:20%;
+    background-color:transparent;
+    color:white;
+    
+    
+}
+a {
+    text-decoration-line: none;
+    color:white;
+}
+.web-name {
+    float:left;
+    text-shadow: 2px 2px 5px burlywood;
+    color: #d6d951;
+    animation-name: example;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.navi {
+    display:flex;
+    float:center;
+    padding-top: 10px;
+}
+li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.contact {
+    float:right;
+    width:32%;
+    text-align: center;
+   /* border:2px solid grey; */
+    padding:40px 10px 20px 10px;
+}
+.container {
+    
+    background-image: url("https://res.cloudinary.com/munirat96/image/upload/v1595375967/new%20contact.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+   /* border:1px solid black; */
+    height:450px;
+    background-position: center;
+    padding:60px 10px 20px 10px;
+
+}
+.size {
+width:90%;
+}
+
+legend {
+    font-weight: bold;
+    color:black;
+    text-shadow: 2px 2px 4px white;
+    font-size:25px;
+}
+label {
+    font-size:15px;
+    padding-bottom: 15px;
+}
+input {
+    width:35%;
+    border-radius:4px;
+}
+textarea {
+    width: 45%;
+    height: 60px;
+    border-top-right-radius: 25px;
+    border-radius: 10px;
+}
+button:hover {
+      background-color:#d6d951;
+      color:white;
+      border-radius: 10px;
+}
+button {
+    background-color: #413D2E;
+
+}
+.dm {
+    background-color: white;
+    
+    height:150px;
+    position:relative;
+    
+}
+.shift {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: #d6d951;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    0% {color:#d6d951;}
+    20% {color:grey;}
+    40% {color:#d6da25;}
+    80% {color:#49493d;}
+    100% {color:greenyellow;}
+}
+footer {
+    background-color:#d6d951;
+text-align: center;
+}
+footer.span {
+    display:flex;
+    padding-top: 17px;
+}
+span {
+    display:inline-flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
